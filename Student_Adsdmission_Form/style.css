@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(200, 157, 157);
+    color: black;
+}
+.hiddenE{
+    display: none;
+    color: red;
+}

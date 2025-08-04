@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1><b><u>Student Admission Form</u></b></h1>
+        <label for="fullname">Full Name :</label>
+        <input type="text" id="fname" placeholder="Full Name" required><br><br>
+        <p id="hiddenfname" class="hiddenE">Enter Proper Name</p>
+
+        <label for="fathername">Father Name :</label>
+        <input type="text" id="fathername" placeholder="Father Name"><br><br>
+        <p id="hiddenfathername" class="hiddenE">Enter Proper Name</p>
+
+        <label for="Mother Name">Mother Name :</label>
+        <input type="text" id="mothername" placeholder="Mother Name"><br><br>
+        <p id="hiddenmothername" class="hiddenE">Enter Proper Name</p>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" placeholder="Age" required><br><br>
+        <p id="hiddenage" class="hiddenE">Enter Proper Age</p>
+
+        <label for="DOB">Date of Birth :</label>
+        <input type="date" id="dob" placeholder="Date of Birth"><br><br>
+
+        <p>Please select your Gender:</p>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" id="others" name="Gender" value="Others">
+        <label for="Others">Others</label><br>
+
+        <label for="address">Address :</label>
+        <input type="text" id="address" placeholder="Address"><br><br>
+        <p id="hiddenaddress" class="hiddenE">Enter Proper Address</p>
+
+        <label for="email">Email Address :</label>
+        <input type="text" id="email" placeholder="Enter Email Address here...!"><br><br>
+        <p id="hiddenemail" class="hiddenE">Enter Proper Email Address</p>
+
+        <label for="phone number">Phone Number :</label>
+        <input type="text" id="phno" placeholder="Phone Number" required><br><br>
+        <p id="hiddenphno" class="hiddenE">Enter Proper Phone Number</p>
+
+        <label for="blood group">Blood Group :</label>
+        <input type="text" id="bloodgroup" placeholder="Blood Group"><br><br>
+        <p id="hiddenblood" class="hiddenE">Enter Proper Blood Group</p>
+
+       <p>Select Your Course.</p>
+       <label for="Course">Choose a Course:</label>
+       <select id="course">
+       <option value="CS">CS</option>
+       <option value="ME">ME</option>
+       <option value="EC">EC</option>
+       <option value="CE">CE</option>
+       </select>
+       <br><br>
+
+       <label for="10thpercentage">SSLC Percentage :</label>
+       <input type="text" id="SSLC" placeholder="SSLC Percentage" required><br><br>
+       <p id="hiddenSSLC" class="hiddenE">Enter Proper Percentage</p>
+
+       <label for="PUCpercentage">PUC Percentage :</label>
+       <input type="text" id="PUC" placeholder="PUC Percentage"><br><br>
+       <p id="hiddenPUC" class="hiddenE">Enter Proper Percentage</p>
+
+       <label for="ITIpercentage">ITI Percentage :</label>
+       <input type="text" id="ITI" placeholder="ITI Percentage"><br><br>
+       <p id="hiddenITI" class="hiddenE">Enter Proper Percentage</p>
+
+        <button onclick="submit()" id="submit">Submit</button>
+   
+     </div>
+
+        <script src="script.js"></script>
+    
+</body>
+</html>
